@@ -9,3 +9,8 @@
     gap: 1rem;
     padding: 1rem;
   }
+  @media (max-width: 1170px) {
+    .contentSection {
+      padding-bottom: 50px;
+    }
+   }

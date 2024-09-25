@@ -5,3 +5,12 @@ footer {
     font-size: 0.8rem;
     font-weight: 600;
   }
+
+  @media (max-width: 1170px) {
+   footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+  }
+  }

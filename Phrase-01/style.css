@@ -89,6 +89,11 @@ main.content {
 .content-section {
   flex-basis: 85%;
 }
+@media (max-width: 1170px) {
+  .content-section {
+    padding-bottom: 50px;
+  }
+}
 
 .product-list {
   display: flex;
@@ -104,7 +109,7 @@ main.content {
   padding: 1rem;
   text-align: center;
   width: 200px;
-  height:200px;
+  height: 200px;
   margin: 1.5%;
   position: relative;
   overflow: hidden;
@@ -190,4 +195,12 @@ footer {
   padding: 0.3rem;
   font-size: 0.8rem;
   font-weight: 600;
+}
+@media (max-width: 1170px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+  }
 }
