@@ -1,0 +1,36 @@
+.filterSection {
+  flex-basis: 15%;
+  background-color: rgb(230, 154, 79);
+  text-align: center;
+  padding: 0.5rem 1rem;
+  height: 100vh;
+}
+
+@media (max-width: 1170px) {
+  .filterSection {
+    height: fit-content;
+  }
+}
+
+.filterSection h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+@media (max-width: 1170px) {
+  .filterSection h2 {
+    display: none;
+  }
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1170px) {
+  .btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
